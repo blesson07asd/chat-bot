@@ -6,9 +6,9 @@ import os
 from openai import OpenAI
 
 # ========== SET YOUR OPENAI API KEY HERE ==========
-client = OpenAI(
-    api_key="******"
-)
+#client = OpenAI(
+#    api_key="******"
+#)
 
 # ========== Text-to-Speech Engine ==========
 engine = pyttsx3.init()
