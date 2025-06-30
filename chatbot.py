@@ -144,13 +144,14 @@ def execute_command(command):
         speak("Let me think...")
         answer = chat_with_openai(command)
         speak(answer)
-
+"""
 # ========== Main Program ==========
-"""_name_="_main_"
+_name_="_main_"
 if _name_ == "_main_":
     greet()
     while True:
         cmd = listen_command()
         if cmd:
             execute_command(cmd)
+
 """
