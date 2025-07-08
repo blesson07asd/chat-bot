@@ -7,7 +7,7 @@ from openai import OpenAI
 
 """# ========== SET YOUR OPENAI API KEY HERE ==========
 #client = OpenAI(
-#    api_key="******"
+  api_key="******"
 #)"""
 
 # ========== Text-to-Speech Engine ==========
